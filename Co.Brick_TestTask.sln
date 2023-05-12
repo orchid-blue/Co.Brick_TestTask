@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Co.Brick_TestTask", "Co.Brick_TestTask\Co.Brick_TestTask.csproj", "{34EDB1B9-BF5F-448A-841D-D65B355584D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Co.Brick_TestTask", "Co.Brick_TestTask\Co.Brick_TestTask.csproj", "{34EDB1B9-BF5F-448A-841D-D65B355584D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Co.Brick_Tests", "Co.Brick_Tests\Co.Brick_Tests.csproj", "{4FB4105A-331F-45CB-A5CA-6B3794C45A0D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{34EDB1B9-BF5F-448A-841D-D65B355584D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34EDB1B9-BF5F-448A-841D-D65B355584D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34EDB1B9-BF5F-448A-841D-D65B355584D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FB4105A-331F-45CB-A5CA-6B3794C45A0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FB4105A-331F-45CB-A5CA-6B3794C45A0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FB4105A-331F-45CB-A5CA-6B3794C45A0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FB4105A-331F-45CB-A5CA-6B3794C45A0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
