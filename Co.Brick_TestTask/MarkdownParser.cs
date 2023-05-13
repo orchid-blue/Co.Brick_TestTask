@@ -21,7 +21,7 @@ namespace Co.Brick_TestTask
             string hashtags = match.Groups[1].Value;
             string inputText = match.Groups[2].Value;
 
-            if (inputText[0] == ' ')
+            if (!string.IsNullOrEmpty(inputText) && inputText[0] == ' ')
             {
                 return input;
             }

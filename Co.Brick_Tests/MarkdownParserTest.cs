@@ -13,6 +13,8 @@ namespace Co.Brick_Tests
         [TestCase("Header", "Header")]
         [TestCase("", "")]
         [TestCase("<h4># Header</h4>", "#### # Header")]
+        [TestCase("<h5></h5>", "##### ")]
+        [TestCase("#####  ", "#####  ")]
         public void GetFormattesTest(string expected, string input)
         {
             MarkdownParser mp = new MarkdownParser();
